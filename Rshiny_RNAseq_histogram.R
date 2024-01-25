@@ -5,7 +5,7 @@ library(ggplot2)
 
 # Define UI
 ui <- fluidPage(
-  theme = shinytheme("yeti"),  # Applying the 'yeti' theme for better aesthetics
+  theme = shinytheme("yeti"),
   titlePanel("RNA-Seq Data Histograms"),
   sidebarLayout(
     sidebarPanel(
